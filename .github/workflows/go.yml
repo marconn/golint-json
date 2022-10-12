@@ -18,9 +18,7 @@ jobs:
           go-version: ${{ matrix.go-version }}
 
       - name: Install dependencies
-        run: go mod install --vendor
+        run: go mod vendor
 
       - name: Run test ${{ matrix.go-version }}
         run: go test -v
-        with:
-          go-version: ${{ matrix.go-version }}
