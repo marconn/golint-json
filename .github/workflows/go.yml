@@ -20,4 +20,7 @@ jobs:
       - name: Install dependencies
         run: go mod install --vendor
 
-      - name: go test -json > TestResults-${{ matrix.go-version }}.json
+      - name: Run test ${{ matrix.go-version }}
+        run: go test -v
+        with:
+          go-version: ${{ matrix.go-version }}
