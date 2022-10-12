@@ -1,4 +1,4 @@
-[![Go](https://github.com/marconn/golint-json/actions/workflows/go.yml/badge.svg)](https://github.com/marconn/golint-json/actions/workflows/go.yml)
+[![CI](https://github.com/marconn/golint-json/actions/workflows/go.yml/badge.svg)](https://github.com/marconn/golint-json/actions/workflows/go.yml)
 
 # golint-json
 
